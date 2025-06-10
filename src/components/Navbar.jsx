@@ -8,13 +8,13 @@ function Navbar() {
       <div className='lg:px-[200px] sm:px-[70px] px-12  py-5 bg-[#dcebf8] sticky'>
         <div className="flex justify-between container">
           <div className="">
-            <a href="/">
+            <a href="#">
               <img className='h-[40px] sm:h-[50px]' src={logo} alt="" />
             </a>
           </div>
           <div className="flex ">
             <ul className='sm:flex hidden leading-[36px] text-[18px] lg:text-[21px] font-normal'>
-              <li className='hover:text-[#753899]'><a href="/">Home</a></li>
+              <li className='hover:text-[#753899]'><a href="#">Home</a></li>
               <li className='mx-2'>|</li>
               <li className='hover:text-[#753899]'><a href="#About">About US</a></li>
               <li className='mx-2'>|</li>
@@ -44,13 +44,13 @@ function Navbar() {
                   } transition-transform duration-300 ease-in-out`}
               >
                 <div className="p-4 flex justify-between items-center border-b border-[#2867B4]">
-                  <a href="#home">
+                  <a href="#">
                     <img className='h-[40px] sm:h-[50px]' src={logo} alt="" />
                   </a>
                   <button onClick={() => setOpen(false)} className="text-2xl text-[#2867B4]"><i class="fa-solid fa-xmark"></i></button>
                 </div>
                 <ul className="p-4 space-y-4">
-                  <li><a href="#home">Home</a></li>
+                  <li><a href="#">Home</a></li>
 
                   <li><a href="#About">About US</a></li>
 
