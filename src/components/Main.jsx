@@ -52,7 +52,7 @@ function Main() {
                     </div>
                 </div>
                 {/* whatsapp logo */}
-                <a href='https://api.whatsapp.com/send?phone=+91%209111116483'>
+                <a href='https://api.whatsapp.com/send?phone=+91%209111116483'  target="_blank" rel="noopener noreferrer">
                     <img
                         className="w-[47px] lg:w-[60px] fixed  top-[80%] right-3 sm:top-[85%] sm:right-[5%]"
                         src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png"

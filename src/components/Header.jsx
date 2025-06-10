@@ -13,10 +13,22 @@ function Header() {
                         <span className='ms-5 hidden sm:inline'><FontAwesomeIcon icon={faEnvelope} /> info@diavets.com</span>
                     </div>
                     <div className='flex  flex-row gap-2 justify-center content-center '>
-                        <i className="fa-brands fa-square-facebook fa-sm content-center" style={{ color: "#ffffff" }}></i>
-                        <i className="fa-brands fa-instagram fa-sm content-center" style={{ color: "#ffffff" }}></i>
-                        <i className="fa-brands fa-youtube fa-sm content-center" style={{ color: "#ffffff" }}></i>
-                        <i className="fa-brands fa-linkedin-in fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        <a href="https://www.facebook.com/diavets" target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-square-facebook fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/diavets" target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-instagram fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/@diavets" target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-youtube fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/company/diavets" target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-linkedin-in fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        </a>
+
 
 
                     </div>
