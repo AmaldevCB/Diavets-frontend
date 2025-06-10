@@ -49,16 +49,16 @@ function Navbar() {
                   </a>
                   <button onClick={() => setOpen(false)} className="text-2xl text-[#2867B4]"><i class="fa-solid fa-xmark"></i></button>
                 </div>
-                <ul className="p-4 space-y-4">
-                  <li><a href="#">Home</a></li>
+                <ul className="pt-4 space-y-4 text-xl">
+                  <a href="#"> <li onClick={() => setOpen(false)} className='p-3 border-b-2 border-[#2867B4]'>Home</li></a>
 
-                  <li><a href="#About">About US</a></li>
+                  <a href="#About"><li onClick={() => setOpen(false)} className='p-3 border-b-2 border-[#2867B4]'>About US</li></a>
 
-                  <li><a href="#Products">Our Products</a></li>
+                  <a href="#Products"> <li onClick={() => setOpen(false)} className='p-3 border-b-2 border-[#2867B4]'>Our Products</li></a>
 
-                  <li><a href="#Testimonials">Testimonials</a></li>
+                  <a href="#Testimonials"> <li onClick={() => setOpen(false)} className='p-3 border-b-2 border-[#2867B4]'>Testimonials</li></a>
 
-                  <li><a href="#Contact">Contact Us</a></li>
+                  <a href="#Contact"><li onClick={() => setOpen(false)} className='p-3 border-b-2 border-[#2867B4]'>Contact Us</li></a>
 
                 </ul>
               </div>
