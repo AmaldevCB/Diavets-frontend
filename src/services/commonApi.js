@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const serverUrl = "http://localhost:5000"
+const serverUrl = "https://diavets-backend.onrender.com"
 
 export const commonApi = async (httpRequest, url, reqbody, reqHeader) => {
     const config = {
