@@ -34,14 +34,14 @@ function Navbar() {
 
               {open && (
                 <div
-                  className="fixed inset-0 bg-white/50 z-40"
+                  className="fixed inset-0 sm:hidden bg-white/50 z-40"
                   onClick={() => setOpen(false)}
                 ></div>
               )}
 
               <div
-                className={`fixed top-0 left-0 h-full w-64 bg-[#dcebf8] z-50 transform ${open ? "translate-x-0" : "-translate-x-full"
-                  } transition-transform duration-300 ease-in-out`}
+                className={`fixed top-0 left-0 h-full w-[75%] sm:hidden bg-[#dcebf8] z-50 transform ${open ? "translate-x-0" : "-translate-x-full"
+                  } transition-transform duration-500 ease-in-out`}
               >
                 <div className="p-4 flex justify-between items-center border-b border-[#2867B4]">
                   <a href="#">
