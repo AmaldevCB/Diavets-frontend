@@ -1,0 +1,29 @@
+import { faEnvelope, faPhoneVolume, faSquareXmark, faX } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react'
+
+function Header() {
+    return (
+        <>
+
+            <div className="lg:px-[200px] sm:px-[30px] px-5  text-white font-normal text-[15px] leading-[36px]  font-[Tahoma] content-center" style={{ backgroundColor: "#2867B4" }}>
+                <div className="flex justify-between">
+                    <div className="">
+                        <span><FontAwesomeIcon icon={faPhoneVolume} /> +91 9111116483</span>
+                        <span className='ms-5 hidden sm:inline'><FontAwesomeIcon icon={faEnvelope} /> info@diavets.com</span>
+                    </div>
+                    <div className='flex  flex-row gap-2 justify-center content-center '>
+                        <i className="fa-brands fa-square-facebook fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        <i className="fa-brands fa-instagram fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        <i className="fa-brands fa-youtube fa-sm content-center" style={{ color: "#ffffff" }}></i>
+                        <i className="fa-brands fa-linkedin-in fa-sm content-center" style={{ color: "#ffffff" }}></i>
+
+
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Header
