@@ -79,7 +79,7 @@ function Testimonials() {
                 </div>
                 
                 {/* logos */}
-                <div className="px-[86px] lg:px-[370px] mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <div className="px-[86px] lg:px-[35%] mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <img src={image[2]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] w-auto' alt="logo 1" />
                     <img src={image[3]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] sm:w-auto w-60' alt="logo 2" />
                     <img src={image[4]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] w-auto' alt="logo 3" />

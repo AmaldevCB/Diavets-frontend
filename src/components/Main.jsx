@@ -29,12 +29,12 @@ function Main() {
                             </p>
                             <div className="mt-7 text-[16px] sm:text-[18px] leading-[36px] text-center flex flex-col sm:flex-row sm:justify-start gap-4 w-[100%]">
                                 <a href="#Testimonials" className=" w-full ">
-                                    <button className="bg-[#2867B4] w-full rounded-sm text-white hover:bg-[#1FAF38]">
+                                    <button className="bg-[#2867B4] border-[#2867B4] border w-full rounded-sm text-white hover:bg-[#1FAF38] hover:border-[#1FAF38]">
                                         Who We Are
                                     </button>
                                 </a>
                                 <a href="#Contact" className=" w-full ">
-                                    <button className="border-black border w-full rounded-sm hover:bg-[#1FAF38] hover:text-white hover:border-0">
+                                    <button className="border-black border w-full rounded-sm hover:bg-[#1FAF38] hover:text-white hover:border-[#1FAF38]">
                                         Contact Us
                                     </button>
                                 </a>

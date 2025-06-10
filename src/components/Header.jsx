@@ -6,7 +6,7 @@ function Header() {
     return (
         <>
 
-            <div className="lg:px-[200px] sm:px-[30px] px-5  text-white font-normal text-[15px] leading-[36px]  font-[Tahoma] content-center" style={{ backgroundColor: "#2867B4" }}>
+            <div className="lg:px-[10%] sm:px-[30px] px-5  text-white font-normal text-[15px] leading-[36px]  font-[Tahoma] content-center" style={{ backgroundColor: "#2867B4" }}>
                 <div className="flex justify-between">
                     <div className="">
                        <a href='tel:+919111116483'> <span><FontAwesomeIcon icon={faPhoneVolume} /> +91 9111116483</span></a>
