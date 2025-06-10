@@ -7,11 +7,20 @@ function App() {
 
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-    </Routes>
-    <ToastContainer />
-    </>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+      <ToastContainer
+        position="top-center"
+        autoClose={1500}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />    </>
   )
 }
 

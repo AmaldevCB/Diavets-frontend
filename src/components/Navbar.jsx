@@ -13,7 +13,7 @@ function Navbar() {
             </a>
           </div>
           <div className="flex ">
-            <ul className='sm:flex hidden leading-[36px] text-[18px] lg:text-[21px] font-normal'>
+            <ul className='sm:flex hidden leading-[36px] sm:text-[16px] lg:text-[20px] font-normal'>
               <li className='hover:text-[#753899]'><a href="#">Home</a></li>
               <li className='mx-2'>|</li>
               <li className='hover:text-[#753899]'><a href="#About">About US</a></li>

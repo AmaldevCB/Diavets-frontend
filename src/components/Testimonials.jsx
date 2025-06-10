@@ -27,7 +27,7 @@ function Testimonials() {
                 </div>
                 <div className="mt-8 flex flex-col sm:flex-row gap-3">
                     {/* card 1 */}
-                    <div className="bg-[#F8E2FF] border border-[#F8E2FF] hover:bg-[#E9FFEB] hover:border-[#2867B4] transition-all duration-500 px-[30px] h-[389px] sm:h-[450px] lg:h-[470px] sm:w-[276px]  lg:w-1/3">
+                    <div className="bg-[#F8E2FF] border border-[#F8E2FF] hover:bg-[#E9FFEB] hover:border-[#2867B4] transition-all duration-500 px-[30px] h-auto  pb-8 sm:w-[276px]  lg:w-1/3">
                         <div className='text-right'><i class="fa-solid fa-quote-right text-[50px] mt-[18px]"></i></div>
                         <p className='text-[18px] sm:text-[20px] lg:text-[21px]  font-bold text-[#2867B4]'>
                             Dr. Ramesh Varma
@@ -40,7 +40,7 @@ function Testimonials() {
                         </p>
                     </div>
                     {/* card 2 */}
-                    <div className="bg-[#FFE6DD] border border-[#FFE6DD] hover:bg-[#E9FFEB] hover:border-[#2867B4] transition-all duration-500 px-[30px] h-[389px] sm:h-[450px] lg:h-[470px] sm:w-[276px] sm:my-0 lg:w-1/3">
+                    <div className="bg-[#FFE6DD] border border-[#FFE6DD] hover:bg-[#E9FFEB] hover:border-[#2867B4] transition-all duration-500 px-[30px] h-auto  pb-8 sm:w-[276px] sm:my-0 lg:w-1/3">
                         <div className='text-right'><i class="fa-solid fa-quote-right text-[50px] mt-[18px]"></i></div>
                         <p className='text-[18px] sm:text-[20px] lg:text-[21px] font-bold text-[#2867B4]'>
                             Mr. Joseph Mathew
@@ -53,7 +53,7 @@ function Testimonials() {
                         </p>
                     </div>
                     {/* card 3 */}
-                    <div className="bg-[#DEE8FF] border border-[#DEE8FF] hover:bg-[#E9FFEB] hover:border-[#2867B4] transition-all duration-500 px-[30px] h-[389px] sm:h-[450px] lg:h-[470px] sm:w-[276px]  lg:w-1/3">
+                    <div className="bg-[#DEE8FF] border border-[#DEE8FF] hover:bg-[#E9FFEB] hover:border-[#2867B4] transition-all duration-500 px-[30px] h-auto pb-8 sm:w-[276px]  lg:w-1/3">
                         <div className='text-right'><i class="fa-solid fa-quote-right text-[50px] mt-[18px]"></i></div>
                         <p className='text-[18px] sm:text-[20px] lg:text-[21px] font-bold text-[#2867B4]'>
                             Dr. Shahira Salim
@@ -79,10 +79,10 @@ function Testimonials() {
                 </div>
                 
                 {/* logos */}
-                <div className="px-[86px] lg:px-[200px] mt-8 flex flex-col sm:flex-row gap-2 lg:gap-10">
-                    <img src={image[2]?.picture} className='sm:h-[112px] sm:w-[214px] lg:w-[40%] lg:h-[20vh] ' alt="logo 1" />
-                    <img src={image[3]?.picture} className='sm:h-[112px] sm:w-[290px] lg:w-[40%] lg:h-[20vh] my-3 sm:my-0' alt="logo 2" />
-                    <img src={image[4]?.picture} className='sm:h-[112px] sm:w-[201px] lg:w-[40%] lg:h-[20vh] ' alt="logo 3" />
+                <div className="px-[86px] lg:px-[200px] mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <img src={image[2]?.picture} className='object-contain sm:h-[100px] lg:h-[200px] w-auto' alt="logo 1" />
+                    <img src={image[3]?.picture} className='object-contain sm:h-[100px] lg:h-[200px] sm:w-auto w-60' alt="logo 2" />
+                    <img src={image[4]?.picture} className='object-contain sm:h-[100px] lg:h-[200px] w-auto' alt="logo 3" />
                 </div>
             </div>
         </>
