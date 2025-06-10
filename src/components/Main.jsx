@@ -18,7 +18,7 @@ function Main() {
     return (
         <>
             <div className="bg-[#DCEBF8] relative">
-                <div className="lg:px-[200px] sm:px-[70px] px-12 py-8">
+                <div className="lg:px-[10%] sm:px-[70px] px-12 py-8">
                     <div className="flex flex-col md:flex-row gap-2 lg:gap-8 items-center">
                         <div className="flex-1 ">
                             <p className="text-[28px] sm:text-[36px] lg:text-[40px] leading-[35px] sm:leading-[43px] lg:leading-[50px] font-bold bg-[#753899] bg-clip-text text-transparent transition-all duration-300 hover:bg-gradient-to-r hover:from-[#753899] hover:to-[#2867B4]">

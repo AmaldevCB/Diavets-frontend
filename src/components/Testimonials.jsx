@@ -17,7 +17,7 @@ function Testimonials() {
         }, [])
     return (
         <>
-            <div id='Testimonials' className="scroll-mt-25 my-10 px-[45px] lg:px-[200px] lg:mt-20">
+            <div id='Testimonials' className="scroll-mt-25 my-10 px-[45px] lg:px-[10%] lg:mt-20">
                 <div className='text-[24px] leading-[30px] sm:text-[36px] sm:leading-[63px] lg:text-[52px] lg:leading-[63px] sm:text-center'>
                     <h1 className='font-bold text-[#1FAF38]'>
                         What
@@ -79,10 +79,10 @@ function Testimonials() {
                 </div>
                 
                 {/* logos */}
-                <div className="px-[86px] lg:px-[200px] mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <img src={image[2]?.picture} className='object-contain sm:h-[100px] lg:h-[200px] w-auto' alt="logo 1" />
-                    <img src={image[3]?.picture} className='object-contain sm:h-[100px] lg:h-[200px] sm:w-auto w-60' alt="logo 2" />
-                    <img src={image[4]?.picture} className='object-contain sm:h-[100px] lg:h-[200px] w-auto' alt="logo 3" />
+                <div className="px-[86px] lg:px-[370px] mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <img src={image[2]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] w-auto' alt="logo 1" />
+                    <img src={image[3]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] sm:w-auto w-60' alt="logo 2" />
+                    <img src={image[4]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] w-auto' alt="logo 3" />
                 </div>
             </div>
         </>
