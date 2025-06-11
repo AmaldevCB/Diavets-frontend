@@ -69,7 +69,7 @@ function Testimonials() {
             </div>
 
             {/* partners */}
-            <div className="bg-[#F9F9F9] sm:bg-amber-500  pb-15">
+            <div className="bg-[#F9F9F9]   pb-15">
                 {/* heading */}
                 <div className='text-[24px] leading-[30px] sm:text-[36px] sm:leading-[63px] lg:text-[52px] lg:leading-[63px] sm:text-center mt-10 px-[45px] lg:px-[200px] lg:mt-20'>
                     <h1 className='font-bold text-[#2867B4] pt-10'>
