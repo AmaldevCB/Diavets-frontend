@@ -21,7 +21,7 @@ function Testimonials() {
                 <div className='text-[24px] leading-[30px] sm:text-[36px] sm:leading-[63px] lg:text-[52px] lg:leading-[63px] sm:text-center'>
                     <h1 className='font-bold text-[#1FAF38]'>
                         What
-                        <span className='text-[#2867B4] inline'> Others Say</span>
+                        <span className='text-[#2867B4] inline font-normal'> Others Say</span>
                     </h1>
                     <div className="w-[100px] sm:w-[169px] h-[3px] bg-[#1FAF38] mt-1 lg:mt-4 sm:mx-auto"></div>
                 </div>
