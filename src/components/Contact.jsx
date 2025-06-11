@@ -76,7 +76,7 @@ function Contact() {
                     </div>
                 </div>
                 {/* form */}
-                <div className="sm:w-1/2 bg-[#EAF5FF] border rounded-lg p-10 lg:pt-6 mt-10 sm:mt-3 lg:mt-0">
+                <div className="sm:w-1/2 bg-[#EAF5FF] border rounded-lg p-10 lg:pt-6  sm:mt-3 lg:mt-0">
                     <h2 className="text-[24px] leading-[30px] sm:text-[36px] sm:leading-[36px] lg:text-[45px] lg:leading-[63px] font-bold">
                         <span className="text-[#1FAF38]">We're here to <br /></span>
                         <span className="text-[#2867B4] font-medium">assist </span>
