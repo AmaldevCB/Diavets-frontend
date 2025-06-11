@@ -21,7 +21,7 @@ function About() {
                 <div className="max-w-7xl mx-auto flex flex-col sm:flex-row lg:gap-10 items-center">
                     <div className="sm:w-1/2">
                         <h1 className="text-[24px] sm:text-[36px] lg:text-[52px] font-bold leading-tight">
-                            <span className="text-[#1FAF38]">About</span> <span className="text-[#2867B4]">Us</span>
+                            <span className="text-[#1FAF38]">About</span> <span className="text-[#2867B4] font-normal">Us</span>
                         </h1>
                         <div className="w-[100px] sm:w-[169px] h-[3px] bg-[#1FAF38] mt-2 mb-6"></div>
                         <p className="text-[16px] sm:text-[18px] lg:text-[21px] leading-[31px] sm:leading-[36px]">{content[3]?.text}

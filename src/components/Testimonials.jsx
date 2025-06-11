@@ -69,7 +69,7 @@ function Testimonials() {
             </div>
 
             {/* partners */}
-            <div className="bg-[#F9F9F9] pb-15">
+            <div className="bg-[#F9F9F9]  pb-15">
                 {/* heading */}
                 <div className='text-[24px] leading-[30px] sm:text-[36px] sm:leading-[63px] lg:text-[52px] lg:leading-[63px] sm:text-center mt-10 px-[45px] lg:px-[200px] lg:mt-20'>
                     <h1 className='font-bold text-[#2867B4] pt-10'>
@@ -80,9 +80,9 @@ function Testimonials() {
                 
                 {/* logos */}
                 <div className="px-[86px] lg:px-[35%] mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <img src={image[2]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] w-auto' alt="logo 1" />
-                    <img src={image[3]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] sm:w-auto w-60' alt="logo 2" />
-                    <img src={image[4]?.picture} className='object-contain sm:h-[100px] lg:h-[150px] w-auto' alt="logo 3" />
+                    <img src={image[2]?.picture} className='object-contain h-auto md:h-[112px] lg:h-[140px] w-[185px] md:w-[300px] lg:w-[500px]' alt="logo 1" />
+                    <img src={image[3]?.picture} className='object-contain h-auto md:h-[112px] lg:h-[140px] w-[185px] md:w-[300px] lg:w-[500px]' alt="logo 2" />
+                    <img src={image[4]?.picture} className='object-contain h-auto md:h-[112px] lg:h-[140px] w-[185px] md:w-[300px] lg:w-[500px]' alt="logo 3" />
                 </div>
             </div>
         </>
