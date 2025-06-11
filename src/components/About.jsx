@@ -17,8 +17,8 @@ function About() {
         }, [])
     return (
         <>
-            <div id='About' className="bg-[#F9F9F9] px-[45px] sm:px-12 lg:px-[10%] py-12 scroll-mt-20">
-                <div className="max-w-7xl mx-auto flex flex-col sm:flex-row lg:gap-10 items-center">
+            <div id='About' className="bg-[#F9F9F9]  py-12 scroll-mt-20">
+                <div className=" container flex flex-col sm:flex-row lg:gap-10 items-center">
                     <div className="sm:w-1/2">
                         <h1 className="text-[24px] sm:text-[36px] lg:text-[52px] font-bold leading-tight">
                             <span className="text-[#1FAF38]">About</span> <span className="text-[#2867B4] font-normal">Us</span>
@@ -28,11 +28,11 @@ function About() {
                         </p>
                     </div>
 
-                    <div className="sm:w-1/2 flex justify-center">
+                    <div className=" flex justify-center">
                         <img
                             src={image[1]?.picture}
                             alt="About Dia-Vets"
-                            className="w-[296px] sm:w-[432px] lg:w-[742px]"
+                            className="aboutImg"
                         />
                     </div>
                 </div>

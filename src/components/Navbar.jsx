@@ -5,8 +5,8 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className='lg:px-[10%] sm:px-[70px] px-12  py-5 bg-[#dcebf8] sticky'>
-        <div className="flex justify-between">
+      <div className='  py-5 bg-[#dcebf8] sticky'>
+        <div className="flex justify-between container">
           <div className="">
             <a href="#">
               <img className='h-[40px] sm:h-[50px]' src={logo} alt="" />

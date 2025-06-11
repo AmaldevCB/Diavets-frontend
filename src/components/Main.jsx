@@ -2,24 +2,24 @@ import React, { useEffect, useState } from 'react'
 import { getContentApi, getImageApi } from '../services/commonApi'
 
 function Main() {
-     const [content, setContent] = useState([])
-     const [image,setImage]=useState([])
-    
-        const getData = async () => {
-            const result = await getContentApi()
-            setContent(result.data)
-            const res = await getImageApi()
-            setImage(res.data)
-        }
-        
-        useEffect(() => {
-            getData()
-        }, [])
+    const [content, setContent] = useState([])
+    const [image, setImage] = useState([])
+
+    const getData = async () => {
+        const result = await getContentApi()
+        setContent(result.data)
+        const res = await getImageApi()
+        setImage(res.data)
+    }
+
+    useEffect(() => {
+        getData()
+    }, [])
     return (
         <>
-            <div className="bg-[#DCEBF8] relative">
-                <div className="lg:px-[10%] sm:px-[70px] px-12 py-8">
-                    <div className="flex flex-col md:flex-row gap-2 lg:gap-8 items-center">
+            <div className=" bg-[#DCEBF8]">
+                <div className="container py-16 relative">
+                    <div className="flex flex-col md:flex-row gap-2 lg:gap-50 items-center">
                         <div className="flex-1 ">
                             <p className="text-[28px] sm:text-[36px] lg:text-[40px] leading-[35px] sm:leading-[43px] lg:leading-[50px] font-bold bg-[#753899] bg-clip-text text-transparent transition-all duration-300 hover:bg-gradient-to-r hover:from-[#753899] hover:to-[#2867B4]">
                                 Transforming Lives <br />Through Science
@@ -43,21 +43,22 @@ function Main() {
 
                         <div className="flex-1 mt-7 md:mt-0 flex justify-center">
                             <img
-                                className="w-[247px] sm:w-[431px] lg:w-[540px]"
+                                className="homeImg"
                                 src={image[0]?.picture}
                                 alt="Home Image"
                             />
                         </div>
                     </div>
+                    {/* whatsapp logo */}
+                    <a href='https://api.whatsapp.com/send?phone=+91%209111116483' target="_blank" rel="noopener noreferrer">
+                        <img
+                            className="w-[47px] lg:w-[60px] fixed  top-[80%] right-3 sm:top-[85%] sm:right-[5%]"
+                            src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png"
+                            alt=""
+                        />
+                    </a>
                 </div>
-                {/* whatsapp logo */}
-                <a href='https://api.whatsapp.com/send?phone=+91%209111116483'  target="_blank" rel="noopener noreferrer">
-                    <img
-                        className="w-[47px] lg:w-[60px] fixed  top-[80%] right-3 sm:top-[85%] sm:right-[5%]"
-                        src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png"
-                        alt=""
-                    />
-                </a>
+
             </div>
         </>
     )

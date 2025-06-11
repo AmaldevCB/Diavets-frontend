@@ -42,7 +42,7 @@ function Contact() {
     }, [])
     return (
         <>
-            <div id='Contact' className="scroll-mt-30 my-10 px-[45px] sm:px-[90px] lg:px-[10%] lg:mt-20 flex flex-col sm:flex-row gap-20 lg:gap-10">
+            <div id='Contact' className="scroll-mt-30 my-10 container lg:mt-20 flex flex-col sm:flex-row gap-20 lg:gap-10">
                 <div className='sm:w-1/2 lg:mt-10'>
                     <div className='text-[24px] leading-[30px] sm:text-[36px] sm:leading-[63px] lg:text-[45px] lg:leading-[63px] '>
                         <h1 className='font-bold text-[#1FAF38]'>

@@ -2,3 +2,16 @@
 html {
     scroll-behavior: smooth;
 }
+
+.container{
+    @apply px-[45px] sm:px-[10px] md:px-[40px] lg:px-[100px] xl:px-[200px] mx-auto
+}
+.homeImg{
+    @apply w-[247px] sm:w-[320px] md:w-[420px] lg:w-[480px] xl:w-[500px]
+}
+.aboutImg{
+    @apply w-[247px] sm:w-[300px] md:w-[400px] lg:w-[500px] xl:w-[600px]
+}
+.dialogo{
+    @apply w-[150px]  lg:w-[200px] xl:w-[250px]
+}

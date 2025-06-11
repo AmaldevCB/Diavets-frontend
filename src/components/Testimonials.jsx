@@ -17,7 +17,7 @@ function Testimonials() {
         }, [])
     return (
         <>
-            <div id='Testimonials' className="scroll-mt-25 my-10 px-[45px] lg:px-[10%] lg:mt-20">
+            <div id='Testimonials' className="scroll-mt-25 my-10 container lg:mt-20">
                 <div className='text-[24px] leading-[30px] sm:text-[36px] sm:leading-[63px] lg:text-[52px] lg:leading-[63px] sm:text-center'>
                     <h1 className='font-bold text-[#1FAF38]'>
                         What
