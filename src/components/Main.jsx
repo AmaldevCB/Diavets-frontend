@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getContentApi, getImageApi } from '../services/commonApi'
+import whatsappLogo from '../assets/diavets-whatsapp.jpg'
 
 function Main() {
     const [content, setContent] = useState([])
@@ -53,7 +54,7 @@ function Main() {
                     <a href='https://api.whatsapp.com/send?phone=+91%209111116483' target="_blank" rel="noopener noreferrer">
                         <img
                             className="w-[47px] lg:w-[60px] fixed  top-[80%] right-3 sm:top-[85%] sm:right-[5%]"
-                            src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png"
+                            src={whatsappLogo}
                             alt=""
                         />
                     </a>
